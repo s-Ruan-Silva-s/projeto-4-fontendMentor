@@ -6,9 +6,6 @@
   --principal-color: hsl(30, 10%, 34%);
   --sec-color: hsl(14, 45%, 36%);
   --margin-area: 2em auto;
-  /* mobile */
-  --padding-area-mobile: auto 2em;
-  /* mobile */
 }
 * {
   margin: 0;
