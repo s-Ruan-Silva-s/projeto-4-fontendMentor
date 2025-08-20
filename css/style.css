@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+/* --- ELEMENTS --- */
+
+:root {
+  --principal-font: "Outfit", sans-serif;
+  --principal-color: hsl(30, 10%, 34%);
+  --sec-color: hsl(14, 45%, 36%);
+  --margin-area: 2em auto;
+  /* mobile */
+  --padding-area-mobile: auto 2em;
+  /* mobile */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(30, 54%, 90%);
+}
+h1 {
+  margin: 20px auto;
+  font-family: "young serif";
+  font-size: 2.6em;
+  font-weight: 400;
+}
+h2 {
+  font-family: "young serif";
+  font-size: 1.8em;
+  font-weight: 400;
+  color: var(--sec-color);
+}
+h3 {
+  font-family: var(--principal-font);
+  font-size: 1.2em;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+p {
+  font-family: var(--principal-font);
+  color: var(--principal-color);
+  font-size: 16px;
+}
+li {
+  margin-left: 1.3em;
+  font-family: var(--principal-font);
+  padding: 5px 1.3em;
+  color: var(--principal-color);
+}
+strong {
+  font-weight: 700;
+}
+/* --- ELEMENTS --- */
+
+/* --- class --- */
+.area-main {
+  margin: 5em auto;
+  padding: 2em;
+  width: 700px;
+  border-radius: 10px;
+  background: #fff;
+}
+.area-header {
+  width: 100%;
+}
+.area-header img {
+  width: 100%;
+  border-radius: 10px;
+}
+.area-preparation {
+  margin: var(--margin-area);
+  padding: 1.6em;
+  border-radius: 10px;
+  background: hsl(330, 100%, 98%);
+}
+.area-ingredients {
+  margin: var(--margin-area);
+}
+.area-instructions {
+  margin: var(--margin-area);
+}
+.area-nutrition {
+  margin: var(--margin-area);
+}
+.area-nutrition h2 {
+  margin-bottom: 1em;
+}
+.area-nutrition table {
+  margin: var(--margin-area);
+  width: 100%;
+  border-collapse: collapse;
+  background: hsla(330, 100%, 98%, 0.2);
+}
+.area-nutrition td {
+  padding: 10px;
+  font-family: var(--principal-font);
+  color: var(--principal-color);
+  border-bottom: 1px solid #000;
+}
+.td-nutrition-color-sec {
+  color: var(--sec-color) !important;
+}
+/* --- class --- */
+
+/* mobile */
+@media (max-width: 540px) {
+  .area-main {
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    border-radius: 0;
+  }
+  .area-header img {
+    width: 100vw;
+    margin: -1em;
+    height: auto;
+    border-radius: 0;
+  }
+}
+/* mobile */
